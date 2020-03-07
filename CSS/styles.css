@@ -7,7 +7,7 @@
 }
 
 body{
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../Resources/winter-desktop-wallpaper-best-hd-wallpapers.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../Resources/greenhouse_garden_flowers_124398_1920x1080.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -16,7 +16,7 @@ body{
 .header{
     background-color: black;
     display: block;
-    height: 65px;
+    height: 98px;
     width: 100%;
 }
 
@@ -119,6 +119,34 @@ body{
 #car h5, p{
     color: indianred;
 }
+
+.navigation ul{
+    float:right;
+    list-style-type: none;
+    margin-top: 25px;
+    margin-right: 10px;
+
+}
+ul li{
+   display: inline-block;
+}
+.navigation ul li a{
+   text-decoration: none;
+   color: indianred;
+   padding: 460px 460px;
+   border: 1px soliD transparent;
+   transition: 0.6s ease;
+}
+ul li a:hover{
+   background-color: indianred;
+   color: white;
+
+}
+ul li.active a{
+   background-color: indianred;
+   color: white;
+}
+
 
 
 
