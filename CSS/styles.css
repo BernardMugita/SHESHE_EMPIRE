@@ -6,6 +6,13 @@
     text-decoration: none;
 }
 
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../Resources/winter-desktop-wallpaper-best-hd-wallpapers.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+}
 .header{
     background-color: black;
     display: block;
@@ -66,10 +73,36 @@
     font-size: 16px;
 }
 
-#about{
+/*#about{
     padding: 100px;
+    opacity: ;
+}*/
+
+#about{
+	width: 1000px; 
+	height: 500px;
+	padding: 10px; 
+	border: 1px solid black;
+	text-align: left; 
+	color: white; 
+	background: black; 
+    opacity: 0.8;
+    left: 50px;
 }
 
+#about h2{
+    color: indianred;
+}
+
+#mjulus{
+    width: 400px;
+    height: 400px;
+    float: right;
+    position: relative;
+    top: -110px;
+    opacity: initial;
+    
+}
 
 
 
