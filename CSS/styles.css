@@ -79,7 +79,7 @@ body{
 }*/
 
 #about{
-	width: 1000px; 
+	width: 1120px; 
 	height: 500px;
 	padding: 10px; 
 	border: 1px solid black;
@@ -96,12 +96,24 @@ body{
 
 #mjulus{
     width: 400px;
-    height: 400px;
+    height: 425px;
     float: right;
     position: relative;
-    top: -110px;
+    top: -150px;
+    right: 80px;
     opacity: initial;
     
+}
+
+#Slide{
+    margin: 50px;
+    border-color: indianred;
+    font-size: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#car h5{
+    color: indianred;
 }
 
 
