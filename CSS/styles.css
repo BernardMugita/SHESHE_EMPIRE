@@ -94,6 +94,10 @@ body{
     color: indianred;
 }
 
+#about p{
+    color: white;
+}
+
 #mjulus{
     width: 400px;
     height: 425px;
@@ -112,7 +116,7 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-#car h5{
+#car h5, p{
     color: indianred;
 }
 
