@@ -16,8 +16,9 @@ body{
 .header{
     background-color: black;
     display: block;
-    height: 98px;
+    height: 20cm;
     width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../Resources/header.jpg);
     
 }
 
