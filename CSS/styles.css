@@ -4,21 +4,21 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
+    background-color: black;
 }
 
 body{
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../Resources/greenhouse_garden_flowers_124398_1920x1080.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    height: 100vh;
+    background-color: black;
+    
 }
+
 .header{
     background-color: black;
+    background-size: cover;
     display: block;
     height: 20cm;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../Resources/header.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../Resources/greenhouse_garden_flowers_124398_1920x1080.jpg);
     
 }
 
@@ -27,7 +27,7 @@ body{
 .inner-header{
        
     width: 1000px;
-    height: 65px;
+    height: 100px;
     display: block;
     margin: 0 auto;
     background-color: black;
@@ -82,24 +82,20 @@ body{
     opacity: ;
 }*/
 
-#about{
-	width: 1120px; 
-	height: 500px;
-	padding: 10px; 
-	border: 1px solid black;
-	text-align: left; 
-	color: white; 
-	background: black; 
-    opacity: 0.8;
-    left: 50px;
+.about{
+    text-align: center;
+    
 }
 
-#about h2{
-    color: indianred;
-}
-
-#about p{
+.about h2{
     color: white;
+    font-size: 1cm;
+}
+
+.about p{
+    color: white;
+    text-align: center;
+    font-size: 0.6cm;
 }
 
 #mjulus{
